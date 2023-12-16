@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    color: white;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: black;
+}
+.logo{
+    color: azure;
+    padding-top: 25px;
+    font-size: 30px;
+    padding-block-end: 50px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 10px;
+}
+li a{
+    color: wheat;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 15px;
+}
+.nav-links{
+    padding: 20px 130px;
+    display: flex;
+}
+li a:hover{
+    border-bottom: 2px solid azure;
+}
+.head{
+    background: url('../images/header-image.jpg');
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+.headings{
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+    font-size: 20px;
+    
+}
+h3{
+    padding-top: 30px;
+}
+.btn-cont{
+    background-color: aquamarine;
+    color: black;
+    border-radius: 30px;
+    border: 2px solid aquamarine;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 585px;
+    margin-top: 30px;
+    cursor: pointer;
+    width: 180px;
+    text-decoration: solid;
+}
+.btn-cont:hover{
+    background-color: black;
+    color: aliceblue;
+    border: 2px solid rgb(29, 101, 196);
+}
+
+.showcase{
+    background-color: rgb(141, 180, 167);
+    padding: 20px 10px;
+
+}
+.container{
+    width: 80%;
+    margin: 0px auto;
+
+}
+ .row{
+    height: 370px;
+    margin: 40px 0px;
+    background-color: white;
+    box-shadow: 0px 20px 20px 0px wheat;
+}
+.row .img-row img{
+    width:100%;
+   height: 100%;
+    display: inline-block;
+    object-fit: cover;
+}
+.row .img-row{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.row .text-box{
+    float: right;
+    width: 50%;
+    padding-top: 80px;
+    text-align: center;
+    height: 100px;
+}
+p{
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px 30px;
+    color: black;
+}
+h2{
+    font-size: 35px;
+}
+footer{
+    background-color: black;
+}
+footer p{
+    color: white;
+    text-align: center;
+
+}
+.links{
+    padding-left: 560px;
+    font-size: 30px;
+}
+.links i{
+    margin-left: 30px;
+}
+.links a i{
+    color: white;
+}
